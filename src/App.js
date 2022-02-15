@@ -4,6 +4,7 @@ import Contact from './Contact';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ContactForm from './ContactForm';
 import ContactInfo from './ContactInfo';
+import UpdateForm from './UpdateForm';
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
 
           <Route   path='/info/:id'>
             <ContactInfo />
+          </Route>
+
+          <Route   path='/edit/:id'>
+            <UpdateForm />
           </Route>
 
 

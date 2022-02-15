@@ -1,5 +1,6 @@
 
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 
@@ -7,6 +8,7 @@ function ContactForm() {
   const [name, setname] = useState('')
   const [mail, setmail] = useState('')
   const [pno, setpno] = useState('')
+  const history = useHistory();
 
 const handelSubmit = (e) =>{
   e.preventDefault();
@@ -15,6 +17,9 @@ const handelSubmit = (e) =>{
     method:'post',
     headers:{"Content-Type":"application/json"},
     body:JSON.stringify(contact)
+
+  }).then(()=>{
+    history.push('/');
   })
   console.log(contact)
 }

@@ -1,16 +1,28 @@
 {
   "contacts": [
     {
-      "name": "Kalitha",
-      "mail": "Kalitha@gmail.com",
-      "pno": "0114445879",
+      "name": "Kalitha ",
+      "mail": "Kalitha@gmail.com.lk",
+      "pno": "0314445879",
       "id": 1
     },
     {
-      "name": "Kasun",
+      "name": "Kasun M",
       "mail": "kasun@gmail.com",
       "pno": "0774589632",
       "id": 2
+    },
+    {
+      "name": "Amal K",
+      "mail": "Amal@gmail.com",
+      "pno": "0774512369",
+      "id": 3
+    },
+    {
+      "name": "Kamal S",
+      "mail": "kamal@gmail.com",
+      "pno": "0778956236",
+      "id": 4
     }
   ]
 }
