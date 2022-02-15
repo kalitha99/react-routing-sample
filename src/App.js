@@ -3,6 +3,7 @@ import './App.css';
 import Contact from './Contact';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ContactForm from './ContactForm';
+import ContactInfo from './ContactInfo';
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
 
           <Route   path='/add'>
             <ContactForm />
+          </Route>
+
+          <Route   path='/info/:id'>
+            <ContactInfo />
           </Route>
 
 

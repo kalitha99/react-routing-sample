@@ -1,9 +1,16 @@
 {
-    "contacts":[
-        {
-            "id":1,
-            "name":"kal",
-            "email":"k@gmail.com"
-        }
-    ]
+  "contacts": [
+    {
+      "name": "Kalitha",
+      "mail": "Kalitha@gmail.com",
+      "pno": "0114445879",
+      "id": 1
+    },
+    {
+      "name": "Kasun",
+      "mail": "kasun@gmail.com",
+      "pno": "0774589632",
+      "id": 2
+    }
+  ]
 }
